@@ -42,6 +42,9 @@ const Work = () => (
         </ListItem>
       </List>
 
+      <WorkImage src="/images/works/rs-lang/rslang_01.jpg" alt="rs-lang" />
+      <WorkImage src="/images/works/rs-lang/rslang_02.jpg" alt="rs-lang" />
+
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/DI4T0eOTJzg"
@@ -51,9 +54,6 @@ const Work = () => (
           allowFullScreen
         ></iframe>
       </AspectRatio>
-
-      <WorkImage src="/images/works/rs-lang/rslang_01.jpg" alt="rs-lang" />
-      <WorkImage src="/images/works/rs-lang/rslang_02.jpg" alt="rs-lang" />
     </Container>
   </Layout>
 )
