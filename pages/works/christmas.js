@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Christmas">
     <Container mt={2}>
       <Title>
-        Art-Quiz <Badge>2021-</Badge>
+        Christmas <Badge>2021-</Badge>
       </Title>
       <P>
         У вашей бабушки скопилось большое количество ёлочных игрушек. Она
