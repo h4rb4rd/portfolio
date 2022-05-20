@@ -1,4 +1,11 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import {
+  Container,
+  Badge,
+  Link,
+  List,
+  ListItem,
+  AspectRatio
+} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -34,6 +41,16 @@ const Work = () => (
           <span>HTML, SCSS, React.js</span>
         </ListItem>
       </List>
+
+      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+        <iframe
+          src="https://www.youtube.com/embed/DI4T0eOTJzg"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </AspectRatio>
 
       <WorkImage src="/images/works/rs-lang/rslang_01.jpg" alt="rs-lang" />
       <WorkImage src="/images/works/rs-lang/rslang_02.jpg" alt="rs-lang" />
