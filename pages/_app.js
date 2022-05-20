@@ -33,6 +33,7 @@ function Website({ Component, pageProps, router }) {
         stopDelayMs={200}
         height={2}
         showOnShallow={true}
+        options={{ showSpinner: false }}
       />
     </>
   )
