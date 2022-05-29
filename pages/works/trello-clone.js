@@ -12,42 +12,51 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Rs Lang">
+  <Layout title="Trello-Clone">
     <Container mt={2}>
       <Title>
-        Rs Lang <Badge>2022-</Badge>
+        Trello-Clone <Badge>2022-</Badge>
       </Title>
       <P>
-        RS Lang – приложение для изучения иностранных слов с методикой
-        интервального повторения, отслеживанием индивидуального прогресса и
-        мини-играми.
+        Система управления проектами – приложение помогающее достичь
+        поставленные задачи отдельному человеку в команде или группе
+        разработчиков.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Deploy</Meta>
-          <Link href="https://rs-lang2022.netlify.app/" target="_blank">
-            Rs Lang <ExternalLinkIcon mx="2px" />
+          <Link href="https://trello-clone-2022.netlify.app/" target="_blank">
+            Trello-clone <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Repository</Meta>
-          <Link href="https://github.com/h4rb4rd/rslang/" target="_blank">
-            github.com/rs-lang
+          <Link
+            href="https://github.com/h4rb4rd/project-management-app/tree/develop"
+            target="_blank"
+          >
+            github.com/trello-clone
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, SCSS, React.js</span>
+          <span>HTML, SCSS, React.js, Redux Toolkit</span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/rs-lang/rslang_01.jpg" alt="rs-lang" />
-      <WorkImage src="/images/works/rs-lang/rslang_02.jpg" alt="rs-lang" />
+      <WorkImage
+        src="/images/works/trello-clone/trello_01.jpg"
+        alt="trello-clone"
+      />
+      <WorkImage
+        src="/images/works/trello-clone/trello_02.jpg"
+        alt="trello-clone"
+      />
 
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          src="https://www.youtube.com/embed/DI4T0eOTJzg"
+          src="https://www.youtube.com/embed/jMjCtp7CBPA"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

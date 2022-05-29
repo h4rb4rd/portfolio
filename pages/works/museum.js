@@ -17,13 +17,19 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Deploy</Meta>
-          <Link href="https://rolling-scopes-school.github.io/h4rb4rd-JSFEPRESCHOOL/museum">
+          <Link
+            href="https://rolling-scopes-school.github.io/h4rb4rd-JSFEPRESCHOOL/museum"
+            target="_blank"
+          >
             Museum <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Repository</Meta>
-          <Link href="https://github.com/h4rb4rd/rss/tree/museum">
+          <Link
+            href="https://github.com/h4rb4rd/rss/tree/museum"
+            target="_blank"
+          >
             github.com/museum
             <ExternalLinkIcon mx="2px" />
           </Link>

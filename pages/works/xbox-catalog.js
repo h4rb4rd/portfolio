@@ -14,13 +14,13 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Deploy</Meta>
-          <Link href="https://xbox-catalog.vercel.app">
+          <Link href="https://xbox-catalog.vercel.app" target="_blank">
             Xbox catalog <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Repository</Meta>
-          <Link href="https://github.com/h4rb4rd/xbox-catalog">
+          <Link href="https://github.com/h4rb4rd/xbox-catalog" target="_blank">
             github.com/xbox-catalog
             <ExternalLinkIcon mx="2px" />
           </Link>

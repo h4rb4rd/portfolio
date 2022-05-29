@@ -20,13 +20,19 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Deploy</Meta>
-          <Link href="https://rolling-scopes-school.github.io/h4rb4rd-JSFE2021Q3/async-race">
+          <Link
+            href="https://rolling-scopes-school.github.io/h4rb4rd-JSFE2021Q3/async-race"
+            target="_blank"
+          >
             Async-Race <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>API</Meta>
-          <Link href="https://github.com/mikhama/async-race-api">
+          <Link
+            href="https://github.com/mikhama/async-race-api"
+            target="_blank"
+          >
             github.com/async-race-api
             <ExternalLinkIcon mx="2px" />
           </Link>

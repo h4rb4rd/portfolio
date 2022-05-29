@@ -10,6 +10,7 @@ import thumbMomentum from '../public/images/works/momentum/momentum_eyecatch.jpg
 import thumbAsyncRace from '../public/images/works/async-race/asyncrace_eyecatch.jpg'
 import thumbRsLang from '../public/images/works/rs-lang/rslang_eyecatch.jpg'
 import thumbXboxCatalog from '../public/images/works/xbox-catalog/xboxcatalog_eyecatch.jpg'
+import thumbTrelloClone from '../public/images/works/trello-clone/trelloclone_eyecatch.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -19,6 +20,17 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="trello-clone"
+            title="Trello Clone"
+            thumbnail={thumbTrelloClone}
+          >
+            Система управления проектами – приложение помогающее достичь
+            поставленные задачи отдельному человеку в команде или группе
+            разработчиков.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="rs-lang" title="Rs Lang" thumbnail={thumbRsLang}>
             RS Lang – приложение для изучения иностранных слов с методикой
