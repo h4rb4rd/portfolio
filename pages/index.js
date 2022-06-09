@@ -16,7 +16,7 @@ import { SkillsSection, SkillsTitle } from '../components/skills'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoGithub } from 'react-icons/io5'
-import { BsTelegram } from 'react-icons/bs'
+import { BsTelegram, BsDiscord } from 'react-icons/bs'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -145,6 +145,20 @@ const Home = () => (
                 leftIcon={<BsTelegram />}
               >
                 Telegram
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://discordapp.com/users/629050615288561664"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="blue"
+                leftIcon={<BsDiscord />}
+              >
+                Discord
               </Button>
             </Link>
           </ListItem>
