@@ -11,6 +11,7 @@ import thumbAsyncRace from '../public/images/works/async-race/asyncrace_eyecatch
 import thumbRsLang from '../public/images/works/rs-lang/rslang_eyecatch.jpg'
 import thumbXboxCatalog from '../public/images/works/xbox-catalog/xboxcatalog_eyecatch.jpg'
 import thumbTrelloClone from '../public/images/works/trello-clone/trelloclone_eyecatch.jpg'
+import thumbNetflixClone from '../public/images/works/netflix-clone/netflix_eyecatch.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -36,6 +37,15 @@ const Works = () => (
             RS Lang – приложение для изучения иностранных слов с методикой
             интервального повторения, отслеживанием индивидуального прогресса и
             мини-играми.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="netflix-clone"
+            title="Netflix Clone"
+            thumbnail={thumbNetflixClone}
+          >
+            This application is a clone of netflix.
           </WorkGridItem>
         </Section>
         <Section>
