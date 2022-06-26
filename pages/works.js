@@ -12,6 +12,7 @@ import thumbRsLang from '../public/images/works/rs-lang/rslang_eyecatch.jpg'
 import thumbXboxCatalog from '../public/images/works/xbox-catalog/xboxcatalog_eyecatch.jpg'
 import thumbTrelloClone from '../public/images/works/trello-clone/trelloclone_eyecatch.jpg'
 import thumbNetflixClone from '../public/images/works/netflix-clone/netflix_eyecatch.jpg'
+import thumbTwitterClone from '../public/images/works/twitter-clone/twitter_eyecatch.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -37,6 +38,15 @@ const Works = () => (
             RS Lang – приложение для изучения иностранных слов с методикой
             интервального повторения, отслеживанием индивидуального прогресса и
             мини-играми.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="twitter-clone"
+            title="Twitter Clone"
+            thumbnail={thumbTwitterClone}
+          >
+            This application is a clone of twitter.
           </WorkGridItem>
         </Section>
         <Section>
